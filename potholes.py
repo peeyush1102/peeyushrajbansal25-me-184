@@ -1,27 +1,3 @@
-"""
-UGV Task 3 - Obstacle & Pothole Detection
-------------------------------------------
-Detects:
-  * Obstacles -> colored 3D props on the track (cylinders, crates, etc.)
-  * Potholes  -> white circular / elliptical blobs on the track surface
-
-Method (OpenCV):
-  1. Convert BGR -> HSV.
-  2. POTHOLES: build a binary mask of near-white, low-saturation pixels,
-     then run cv2.SimpleBlobDetector (OpenCV's blob-detection API) on it,
-     tuned with filterByColor, filterByArea, filterByCircularity,
-     filterByConvexity and filterByInertia so that thin white lane lines
-     (which are also "white") are rejected and only round pothole blobs
-     are kept.
-  3. OBSTACLES: build a binary mask of saturated (non-gray, non-white)
-     pixels -> these are the colored props. cv2.findContours is used to
-     extract each connected "blob" and cv2.boundingRect gives its box.
-  4. Draw rectangular bounding boxes + label + pixel coordinates on the
-     image, and print/annotate the total obstacle & pothole count.
-
-Usage:
-    python3 detect.py <input_image> <output_image>
-"""
 
 import cv2
 import numpy as np
@@ -29,64 +5,41 @@ import sys
 import os
 
 
-# ----------------------------------------------------------------------
-# 1. POTHOLE DETECTION  (cv2.SimpleBlobDetector on a white mask)
-# ----------------------------------------------------------------------
 def detect_potholes(img, hsv):
     h, w = img.shape[:2]
 
-    # White / near-white, low-saturation road markings + potholes
     lower_white = np.array([0, 0, 190])
     upper_white = np.array([180, 60, 255])
     white_mask = cv2.inRange(hsv, lower_white, upper_white)
 
-    # Clean the mask a little
     kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
     white_mask = cv2.morphologyEx(white_mask, cv2.MORPH_OPEN, kernel)
 
-    # --- cv2.SimpleBlobDetector setup -------------------------------
     params = cv2.SimpleBlobDetector_Params()
 
-    # The mask is pure binary (0 / 255). SimpleBlobDetector thresholds the
-    # input between minThreshold..maxThreshold in steps -- the default
-    # maxThreshold (220) is BELOW 255, so pure-white blobs would never get
-    # picked up unless we widen the threshold range explicitly.
     params.minThreshold = 10
     params.maxThreshold = 255
     params.thresholdStep = 10
 
-    # Detect bright (white=255) blobs on the mask
     params.filterByColor = True
     params.blobColor = 255
 
-    # Reasonable pothole size range (scales with image size)
     params.filterByArea = True
     params.minArea = 150
     params.maxArea = 0.02 * h * w
 
-    # Potholes are roughly round/elliptical -> high circularity.
-    # Long thin lane-lines have very low circularity and get rejected.
     params.filterByCircularity = True
     params.minCircularity = 0.55
 
-    # Reject thin, elongated shapes (lane lines) via inertia ratio.
-    # Potholes are drawn as tilted ellipses (perspective) so their inertia
-    # ratio (minor/major axis) can be fairly small too -> keep this loose,
-    # circularity + convexity do most of the lane-line rejection work.
     params.filterByInertia = True
     params.minInertiaRatio = 0.05
 
-    # Potholes are solid/convex blobs
     params.filterByConvexity = True
     params.minConvexity = 0.8
 
     detector = cv2.SimpleBlobDetector_create(params)
     keypoints = detector.detect(white_mask)
 
-    # SimpleBlobDetector gives (center, equivalent-diameter) but not a tight
-    # bounding box, especially for tilted ellipses. For an accurate box we
-    # match each keypoint back to its actual contour in the mask and use
-    # cv2.boundingRect on that contour.
     contours, _ = cv2.findContours(white_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
     potholes = []
@@ -113,9 +66,6 @@ def detect_potholes(img, hsv):
     return potholes, white_mask
 
 
-# ----------------------------------------------------------------------
-# 2. OBSTACLE DETECTION (color-blob contours)
-# ----------------------------------------------------------------------
 def detect_obstacles(img, hsv):
     h, w = img.shape[:2]
 
@@ -144,9 +94,6 @@ def detect_obstacles(img, hsv):
     return obstacles, color_mask
 
 
-# ----------------------------------------------------------------------
-# 3. DRAW RESULTS
-# ----------------------------------------------------------------------
 def annotate(img, obstacles, potholes):
     out = img.copy()
 
@@ -174,9 +121,6 @@ def annotate(img, obstacles, potholes):
     return out
 
 
-# ----------------------------------------------------------------------
-# 4. MAIN PIPELINE
-# ----------------------------------------------------------------------
 def process_image(path, out_path):
     img = cv2.imread(path)
     if img is None:
