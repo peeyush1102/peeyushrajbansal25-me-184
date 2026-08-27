@@ -14,4 +14,9 @@ timing - 12pm to next day
 tried to generalize the code of task 2 and research about task3 as there is no particular yt tutorial available
 <br> 
 trying to understand and use the open cv documentation of blob detection
+<br>
+DAY-27 august 
+<br>
+tried to do task 2 and task 3 completely by a process such that they input a complete file of images and then output shows a file in the same directory with output images processed
+
 
