@@ -4,22 +4,6 @@ This repo holds my work for the Final Round of the DELTECH UGV-DTU Software Depa
 <br>
 
 
-├── Task-1(Git_Basics)<br>
-├── Task-2(Lane_detection)<br>
-│   ├── lane_detection.py<br>
-│   ├── input_images<br>
-│   └── output_images<br>
-├── Task-3(Obstacle_Pothole_Detection)<br>
-│   ├── main.py<br>
-│   ├── input_images<br>
-│   └── output_images<br>
-├── Task-4(Aerial_Path_Planning)<br>
-│   ├── aerialdetection.py<br>
-│   ├── input_images<br>
-│   └── output_images<br>
-├── Task_5_ROS2_Basics/  [BONUS]<br>
-└── README.md<br>
-
 What Each Task Covers
 
 Task 1 – Git & Command Line Basics Setting up the repo on GitHub, practicing Git version control, and running basic Linux terminal commands.
