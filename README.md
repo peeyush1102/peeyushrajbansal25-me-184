@@ -4,31 +4,21 @@ This repo holds my work for the Final Round of the DELTECH UGV-DTU Software Depa
 <br>
 
 
-├── Task-1(Git_Basics)/
-│   ├── main.py
-│   ├── input_images/
-│   └── output_images/
-├── Task-2(Lane_detection)/
-│   ├── lane_detection.py
-│   ├── input_images/
-│   └── output_images/
-├── Task-3(Obstacle_Pothole_Detection)/
-│   ├── main.py
-│   ├── input_images/
-│   └── output_images/
-├── Task-4(Aerial_Path_Planning)/
-│   ├── aerialdetection.py
-│   ├── input_images/
-│   └── output_images/
-├── Task_5_ROS2_Basics/  [BONUS]
-│   ├── main.py
-│   ├── input_images/
-│   └── output_images/
-└── README.md
-
-
-
-<br>
+├── Task-1(Git_Basics)<br>
+├── Task-2(Lane_detection)<br>
+│   ├── lane_detection.py<br>
+│   ├── input_images<br>
+│   └── output_images<br>
+├── Task-3(Obstacle_Pothole_Detection)<br>
+│   ├── main.py<br>
+│   ├── input_images<br>
+│   └── output_images<br>
+├── Task-4(Aerial_Path_Planning)<br>
+│   ├── aerialdetection.py<br>
+│   ├── input_images<br>
+│   └── output_images<br>
+├── Task_5_ROS2_Basics/  [BONUS]<br>
+└── README.md<br>
 
 What Each Task Covers
 
