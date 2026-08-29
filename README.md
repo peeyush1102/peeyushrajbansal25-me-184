@@ -19,11 +19,12 @@ Task 5 – ROS 2 Architecture (Bonus) Building custom ROS 2 nodes for publisher/
 ><h3>DAILY LOG OF EXECUTION AND KEET TRACKING</h3>
 
 # peeyushrajbansal25-me-184
+
 ugvtaskround3
 <br>
 author-PEEYUSH RAJ BANSAL 
 <br>
-DAY 26 AUG 
+><h3>DAY 26 AUG</h3>
 <br>
 Timing-12 am to 12 pm 
 <br>
@@ -35,14 +36,16 @@ tried to generalize the code of task 2 and research about task3 as there is no p
 <br> 
 trying to understand and use the open cv documentation of blob detection
 <br>
-DAY-27 august 
+><h3>DAY-27 august</h3>
 <br>
 tried to do task 2 and task 3 completely by a process such that they input a complete file of images and then output shows a file in the same directory with output images processed
 <br>
 successfulyy comp[leted task 2, 3 and 4 on visual studio code with the help of proper prompting in claude, gemini and chatgpt and successully was able to use all free tokens:).
 <br>was a little difficult for me to use github but watching tutorials on it and trying to understand it and hopefully will be able to understand it by 28th morning
 <br>
-DAY -28 AUGUST
-was successfully able to understand github and uploaded all the files on github repo 
+><h3>DAY -28 AUGUST</h3>
+was successfully able to understand github and uploaded all the files on github repo and tried to refine the task 2 code on the basis that it earlier it was only applicable to the first image and not all, with the help of porper promprting and generalizing the mask size and setting an inpput and output directory, i was able to somewhat apply the code to images but not completely.
+><h3>DAY -29 AUGUST</h3>
+found something called as markdown guide and understood that readme.md file is basically a html text file and rules of html can be applied and thus altered this file a bit.
 
 
