@@ -56,5 +56,6 @@ author-PEEYUSH RAJ BANSAL
 ><h3>DAY -29 AUGUST</h3>
 
 2.<p>found something called as markdown guide and understood that readme.md file is basically a html text file and rules of html can be applied and thus altered this file a bit. Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.Markdown is often used to format readme files.</p>
+3.<p> tried to do task 5 but was not able to due to some error.
 
 
