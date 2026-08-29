@@ -1,10 +1,10 @@
-DELTECH UGV-DTU Software Recruitment Challenge — Submission
+><h1>DELTECH UGV-DTU Software Recruitment Challenge — Submission</h1>
 
 This repo holds my work for the Final Round of the DELTECH UGV-DTU Software Department selections. It covers computer vision, path-planning, and robotics fundamentals built for autonomous ground vehicles, using Python along with OpenCV, NumPy, and ROS 2.
 <br>
 
 
-What Each Task Covers
+><h2>What Each Task Covers<h2>
 
 Task 1 – Git & Command Line Basics Setting up the repo on GitHub, practicing Git version control, and running basic Linux terminal commands.
 
@@ -15,6 +15,8 @@ Task 3 – Obstacle & Pothole Detection Locating obstacles/potholes through blob
 Task 4 – Aerial Path Planning Generating a global path across track images while steering clear of dynamic obstacles, using approaches like A*, RRT*, or a checkpoint-based method.
 
 Task 5 – ROS 2 Architecture (Bonus) Building custom ROS 2 nodes for publisher/subscriber messaging and service-client interaction.
+
+><h3>DAILY LOG OF EXECUTION AND KEET TRACKING</h3>
 
 # peeyushrajbansal25-me-184
 ugvtaskround3
@@ -39,5 +41,8 @@ tried to do task 2 and task 3 completely by a process such that they input a com
 <br>
 successfulyy comp[leted task 2, 3 and 4 on visual studio code with the help of proper prompting in claude, gemini and chatgpt and successully was able to use all free tokens:).
 <br>was a little difficult for me to use github but watching tutorials on it and trying to understand it and hopefully will be able to understand it by 28th morning
+<br>
+DAY -28 AUGUST
+was successfully able to understand github and uploaded all the files on github repo 
 
 
