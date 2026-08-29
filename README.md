@@ -16,7 +16,7 @@ Task 4 – Aerial Path Planning Generating a global path across track images whi
 
 Task 5 – ROS 2 Architecture (Bonus) Building custom ROS 2 nodes for publisher/subscriber messaging and service-client interaction.
 
-><h3>DAILY LOG OF EXECUTION AND KEEP TRACKING OF TASKS</h3>
+<h3>DAILY LOG OF EXECUTION AND KEEP TRACKING OF TASKS</h3>
 
 # peeyushrajbansal25-me-184
 
@@ -24,28 +24,37 @@ ugvtaskround3
 <br>
 author-PEEYUSH RAJ BANSAL 
 <br>
-> <h3>DAY 26 AUG</h3>
+
+><h3>DAY 26 AUG</h3>
+
 <br>
-Timing-12 am to 12 pm 
+1.Timing-12 am to 12 pm 
 <br>
-did task1 and task 2 to the extent that single image could be processed by the code and show the lane markings.
+2.did task1 and task 2 to the extent that single image could be processed by the code and show the lane markings.
 <br>
-timing - 12pm to next day 
+3.timing - 12pm to next day 
 <br>
-tried to generalize the code of task 2 and research about task3 as there is no particular yt tutorial available
+4.tried to generalize the code of task 2 and research about task3 as there is no particular yt tutorial available
 <br> 
-trying to understand and use the open cv documentation of blob detection
+5.trying to understand and use the open cv documentation of blob detection
 <br>
-> <h3>DAY-27 august</h3>
+
+><h3>DAY-27 august</h3>
+
 <br>
-tried to do task 2 and task 3 completely by a process such that they input a complete file of images and then output shows a file in the same directory with output images processed
+1.<p>tried to do task 2 and task 3 completely by a process such that they input a complete file of images and then output shows a file in the same directory with output images processed</p>
 <br>
-successfulyy comp[leted task 2, 3 and 4 on visual studio code with the help of proper prompting in claude, gemini and chatgpt and successully was able to use all free tokens:).
-<br>was a little difficult for me to use github but watching tutorials on it and trying to understand it and hopefully will be able to understand it by 28th morning
+2.<p>successfulyy comp[leted task 2, 3 and 4 on visual studio code with the help of proper prompting in claude, gemini   and chatgpt and successully was able to use all free tokens:).</p>
 <br>
-> <h3>DAY -28 AUGUST</h3>
-was successfully able to understand github and uploaded all the files on github repo and tried to refine the task 2 code on the basis that it earlier it was only applicable to the first image and not all, with the help of porper promprting and generalizing the mask size and setting an inpput and output directory, i was able to somewhat apply the code to images but not completely.
-> <h3>DAY -29 AUGUST</h3>
-found something called as markdown guide and understood that readme.md file is basically a html text file and rules of html can be applied and thus altered this file a bit.
+3.<p>was a little difficult for me to use github but watching tutorials on it and trying to understand it and hopefully will be able to understand it by 28th morning</p>
+<br>
+
+><h3>DAY -28 AUGUST</h3>
+
+1.<p>was successfully able to understand github and uploaded all the files on github repo and tried to refine the task 2 code on the basis that it earlier it was only applicable to the first image and not all, with the help of porper promprting and generalizing the mask size and setting an inpput and output directory, i was able to somewhat apply the code to images but not completely.</p>
+
+><h3>DAY -29 AUGUST</h3>
+
+2.<p>found something called as markdown guide and understood that readme.md file is basically a html text file and rules of html can be applied and thus altered this file a bit. Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.Markdown is often used to format readme files.</p>
 
 
