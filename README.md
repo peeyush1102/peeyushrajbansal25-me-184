@@ -42,20 +42,26 @@ author-PEEYUSH RAJ BANSAL
 ><h3>DAY-27 august</h3>
 
 <br>
-1.<p>tried to do task 2 and task 3 completely by a process such that they input a complete file of images and then output shows a file in the same directory with output images processed</p>
+<p>\
+1.tried to do task 2 and task 3 completely by a process such that they input a complete file of images and then output shows a file in the same directory with output images processed</p>
 <br>
-2.<p>successfulyy comp[leted task 2, 3 and 4 on visual studio code with the help of proper prompting in claude, gemini   and chatgpt and successully was able to use all free tokens:).</p>
+<p>
+2.successfulyy comppleted task 2, 3 and 4 on visual studio code with the help of proper prompting in claude, gemini   and chatgpt and successully was able to use all free tokens:).</p>
 <br>
-3.<p>was a little difficult for me to use github but watching tutorials on it and trying to understand it and hopefully will be able to understand it by 28th morning</p>
+<p>
+3.was a little difficult for me to use github but watching tutorials on it and trying to understand it and hopefully will be able to understand it by 28th morning</p>
 <br>
 
 ><h3>DAY -28 AUGUST</h3>
 
-1.<p>was successfully able to understand github and uploaded all the files on github repo and tried to refine the task 2 code on the basis that it earlier it was only applicable to the first image and not all, with the help of porper promprting and generalizing the mask size and setting an inpput and output directory, i was able to somewhat apply the code to images but not completely.</p>
+<p>
+1.was successfully able to understand github and uploaded all the files on github repo and tried to refine the task 2 code on the basis that it earlier it was only applicable to the first image and not all, with the help of porper promprting and generalizing the mask size and setting an inpput and output directory, i was able to somewhat apply the code to images but not completely.</p>
 
 ><h3>DAY -29 AUGUST</h3>
 
-2.<p>found something called as markdown guide and understood that readme.md file is basically a html text file and rules of html can be applied and thus altered this file a bit. Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.Markdown is often used to format readme files.</p>
-3.<p> tried to do task 5 but was not able to due to some error.
+<p>
+1.found something called as markdown guide and understood that readme.md file is basically a html text file and rules of html can be applied and thus altered this file a bit. Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.Markdown is often used to format readme files.</p>
+<p>
+2.tried to do task 5 but was not able to due to some error.
 
 
